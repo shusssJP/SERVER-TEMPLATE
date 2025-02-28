@@ -154,7 +154,7 @@ gui:
     # Control custom skins in the /skins GUI
     custom:
         # Whether custom skins are enabled in the /skins GUI
-        enabled: false
+        enabled: true
         # Order of custom skins relative to the other skin types
         index: 0
         # Whether only specific custom skins are allowed in the /skins GUI
@@ -229,7 +229,7 @@ proxy:
         # Whether to enable the backend server command blocking feature.
         enabled: true
         # Block players from executing SkinsRestorer commands before having joined a server.
-        ifNoServerBlockCommand: false
+        ifNoServerBlockCommand: true
         # When false means servers in the list are NOT allowed to execute SkinsRestorer commands, true means ONLY servers in the list are allowed to execute SkinsRestorer commands.
         allowList: false
         # List of servers where SkinsRestorer commands are allowed/disallowed depending on the 'allowList' setting.

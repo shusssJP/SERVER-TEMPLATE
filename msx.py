@@ -1,4 +1,4 @@
-# ================
+1# ================
 # MSX LAUNCHER 1.0
 # ================
 # 1. Instala la extensión de Python

@@ -1,0 +1,17 @@
+{
+	id: "105409d4-6dda-383c-b023-0b18f3ecb934"
+	type: "player"
+	player_name: "Plataer_"
+	ranks: {
+		105409d4-6dda-383c-b023-0b18f3ecb934: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Plataer_"
+		"ftbteams:description": ""
+		"ftbteams:color": "#598FFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

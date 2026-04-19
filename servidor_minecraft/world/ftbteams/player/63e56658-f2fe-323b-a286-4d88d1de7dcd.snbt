@@ -1,0 +1,17 @@
+{
+	id: "63e56658-f2fe-323b-a286-4d88d1de7dcd"
+	type: "player"
+	player_name: "Kokuuuuuun"
+	ranks: {
+		63e56658-f2fe-323b-a286-4d88d1de7dcd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Kokuuuuuun"
+		"ftbteams:description": ""
+		"ftbteams:color": "#6AFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

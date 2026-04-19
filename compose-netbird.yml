@@ -1,0 +1,17 @@
+services:
+  netbird-client:
+    container_name: netbird-client
+    hostname: codespace-nightfall # Change this
+    image: netbirdio/netbird:latest
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+      - SYS_RESOURCE
+    environment:
+      - NB_SETUP_KEY=91757405-1EC5-4700-9F06-31D91A01FBCE
+    volumes:
+      - netbird-client-data:/var/lib/netbird
+    restart: unless-stopped  # Automatically start on boot
+
+volumes:
+  netbird-client-data:
